@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-nunito text-[120%] text-[#444444]
+}
+
+.hover {
+  @apply hover:bg-orange-100
+}
+
+.rounded-reg {
+  @apply rounded-[0.25rem]
+}
+
+
+.transition-reg {
+  @apply transition-all duration-200 ease-in-out
+}
