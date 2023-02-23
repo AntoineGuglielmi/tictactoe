@@ -32,7 +32,7 @@
 </script>
 
 <template>
-  <div class="min-h-screen flex items-center justify-center">
+  <div class="min-h-screen flex flex-col items-center justify-center gap-[1rem]">
 		<div
 			class="flex flex-col items-center gap-[1.5rem] p-[3rem] rounded-reg"
 			:class="computedClasses"
@@ -47,5 +47,10 @@
 			>{{ buttonText }}</Button>
 
 		</div>
+
+		<div>
+			<a href="https://github.com/AntoineGuglielmi/tictactoe" target="_blank"><Icon name="akar-icons:github-fill"/></a>
+		</div>
+
   </div>
 </template>
