@@ -20,10 +20,6 @@
 		isMobile
 	} = useDevice();
 
-	console.log({
-		isMobile
-	});
-
 	const computedClasses = computed(() => {
 		return {
 			'shadow-container': !isMobile
